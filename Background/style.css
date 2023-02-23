@@ -1,0 +1,18 @@
+
+* {margin: 0;}
+
+header {
+  height: 100px;
+  border: 7px dashed red;
+  padding: 16px;
+
+  background-color: rgb(55, 100, 50);
+  background-image: url(https://preview.redd.it/yu6a6uk2j9aa1.jpg?width=736&format=pjpg&auto=webp&v=enabled&s=77a6088a052d00919fbcc3779b621525f82569df);
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: contain ;
+
+  background-origin: content-box;
+  background-clip: content-box;
+
+}
