@@ -1,18 +1,27 @@
 
 * {margin: 0;}
 
-header {
+/* header {
   height: 100px;
   border: 7px dashed red;
-  padding: 16px;
+  padding: 16px; }*/
+
+main {
+  
+  color: purple;
+  padding: 8px;
 
   background-color: rgb(55, 100, 50);
   background-image: url(https://preview.redd.it/yu6a6uk2j9aa1.jpg?width=736&format=pjpg&auto=webp&v=enabled&s=77a6088a052d00919fbcc3779b621525f82569df);
   background-repeat: no-repeat;
   background-position: center ;
   background-size: contain ;
-
   background-origin: content-box;
   background-clip: content-box;
+  background-attachment: fixed;
 
+  background:linear-gradient(rgba(255, 255, 255, 0), rgba(255, 0, 0, 0.2)),  url(https://preview.redd.it/yu6a6uk2j9aa1.jpg?width=736&format=pjpg&auto=webp&v=enabled&s=77a6088a052d00919fbcc3779b621525f82569df) no-repeat right top / 50px border-box content-box fixed ;
+
+  /* background: linear-gradient(45deg, red, green, yellow); */
+  
 }
